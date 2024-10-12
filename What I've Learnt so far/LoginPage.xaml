@@ -68,5 +68,12 @@
                 HorizontalAlignment="Right"
                 Click="Click_Clr"
         />
+        <ToggleSwitch Header="Power On\Off"
+                      HorizontalAlignment="Center"
+                      OnContent=""
+                      OffContent=""
+                      Margin="0,330,0,0"
+                      x:Name="ToggleSwitched"
+                      />
     </Grid>
 </Page>
